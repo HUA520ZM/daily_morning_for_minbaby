@@ -2,7 +2,7 @@ from time import time, localtime
 import cityinfo
 import config
 from requests import get, post
-import datetime
+from datetime import datetime, date
 
 
 def get_access_token():
