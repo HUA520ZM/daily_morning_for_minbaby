@@ -71,6 +71,8 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
     love_date = date(love_year, love_month, love_day)
     # 获取在一起的日期差
     love_days = str(today.__sub__(love_date)).split(" ")[0]
+    
+    #敏宝生日
     # 获取生日的月和日
     birthday_month = int(config.birthday.split("-")[1])
     birthday_day = int(config.birthday.split("-")[2])
@@ -85,6 +87,26 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
     else:
         birth_date = year_date
         birth_day = str(birth_date.__sub__(today)).split(" ")[0]
+        
+        
+        
+     #小华生日
+    # 获取生日的月和日
+    birthday_month2 = int(config.birthday2.split("-")[1])
+    birthday_day2 = int(config.birthday2.split("-")[2])
+    # 今年生日
+    year_date2 = date(year, birthday_month2, birthday_day2)
+    # 计算生日年份，如果还没过，按当年减，如果过了需要+1
+    if today > year_date2:
+        birth_date2 = date((year + 1), birthday_month2, birthday_day2)
+        birth_day2 = str(birth_date2.__sub__(today)).split(" ")[0]
+    elif today == year_date2:
+        birth_day2 = 0
+    else:
+        birth_date2 = year_date2
+        birth_day2 = str(birth_date2.__sub__(today)).split(" ")[0]
+        
+        
     data = {
         "touser": to_user,
         "template_id": config.template_id,
@@ -117,6 +139,10 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
             },
             "birthday": {
                 "value": birth_day,
+                "color": "#FF8000"
+            },
+            "birthday2": {
+                "value": birth_day2,
                 "color": "#FF8000"
             },
             "one" : {
