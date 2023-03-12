@@ -59,7 +59,7 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
     year = localtime().tm_year
     month = localtime().tm_mon
     day = localtime().tm_mday
-    today = datetime.date.today()
+    today = datetime.date(datetime(year=year, month=month, day=day))
     week = week_list[0]
     # 获取在一起的日子的日期格式
     love_year = int(config.love_date.split("-")[0])
