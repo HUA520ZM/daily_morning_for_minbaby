@@ -9,7 +9,7 @@ template_id = "KZqIGawIkmiGVyYVcsfK5v9lDSLtZJ6ZkUrpIqE-R8Y"
 # 这是我的
 users = "o48Cd5-DwhG-5B09448-FPTRO3zs"
 # 这是宝宝的
-# user = ""
+users = "o48Cd51hdyYZq3n2xK-RpkQuKOXA"
 
 # 信息配置
 # 所在省份
