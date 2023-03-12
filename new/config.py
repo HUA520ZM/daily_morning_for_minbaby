@@ -15,7 +15,7 @@ users = "o48Cd5-DwhG-5B09448-FPTRO3zs,o48Cd51hdyYZq3n2xK-RpkQuKOXA"
 # 所在省份
 province = "湖北"
 # 所在城市
-city = "武汉"
+city = "武汉市黄陂区"
 # 生日，如果月份或者日期小于10，直接用对应的数字即可，例如1997-1-1
 birthday = "1999-4-1"
 birthday2 = "1999-11-11"
