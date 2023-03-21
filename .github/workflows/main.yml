@@ -22,11 +22,11 @@ jobs:
         architecture: 'x64'
     - run: pip install -r ./requirements.txt && python ./new/main-new.py
 
-#    env:
-#      APP_ID: ${{ secrets.APP_ID }}
-#      APP_SECRET: ${{ secrets.APP_SECRET }}
-#      TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
-#      USER_ID: ${{ secrets.USER_ID }}
-#      START_DATE: ${{ secrets.START_DATE }}
-#      BIRTHDAY: ${{ secrets.BIRTHDAY }}
-#      CITY: ${{ secrets.CITY }}
+    env:
+      APP_ID: ${{ secrets.APP_ID }}
+      APP_SECRET: ${{ secrets.APP_SECRET }}
+      TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
+      USER_ID: ${{ secrets.USER_ID }}
+      START_DATE: ${{ secrets.START_DATE }}
+      BIRTHDAY: ${{ secrets.BIRTHDAY }}
+      CITY: ${{ secrets.CITY }}
