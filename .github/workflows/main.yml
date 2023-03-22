@@ -7,7 +7,7 @@ on:
 jobs:
   send_message:
     runs-on: ubuntu-latest
-    name: send morning to your girlfriend
+    name: send daily morning for minbaby
     #container: node:16.16.0
 
     steps:
@@ -17,7 +17,7 @@ jobs:
         ref: ${{ env.GITHUB_REF_NAME }}
 
     - name: sender
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
         python-version: '3.x'
         architecture: 'x64'
