@@ -1,13 +1,13 @@
 # 公众号配置
 # 公众号appId
-app_id = "wxc2ddbb28335701bc"
+app_id = "wx107c8e135c2c4ff4"
 # 公众号appSecret
-app_secret = "1d898e3693a7205accfcead9543ca4d9"
+app_secret = "2942ef3baf3d7e57aa7649545cd6bae3"
 # 模板消息id
 template_id = "27YY5jcRknxISaNwlhRM5qVFFLYSw0Wcks3z3eIezTk"
 # 接收公众号消息的微信号
 # 这是我的
-users = "o48Cd5-DwhG-5B09448-FPTRO3zs,o48Cd51hdyYZq3n2xK-RpkQuKOXA"
+users = "ofbRU6MWFTdevQUu6W70chl_MMTA,ofbRU6AujKIDPsxu3wkk6ljgJAcE"
 
 
 # 信息配置
