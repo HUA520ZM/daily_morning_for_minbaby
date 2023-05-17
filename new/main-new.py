@@ -144,11 +144,11 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
             "birthday2": {
                 "value": birth_day2,
                 "color": "#FF8000"
-            },
-            "one" : {
-                "value": get_one(),
-                "color": "#808A87"
             }
+            #"one" : {
+             #   "value": get_one(),
+               # "color": "#808A87"
+          #  }
 
         }
     }
