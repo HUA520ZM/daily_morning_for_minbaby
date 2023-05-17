@@ -4,10 +4,10 @@ app_id = "wx107c8e135c2c4ff4"
 # 公众号appSecret
 app_secret = "2942ef3baf3d7e57aa7649545cd6bae3"
 # 模板消息id
-template_id = "s-d0-lwmApBurFJKMwoWWVzpV4QvDfrSDuqRj8K9pOg"
+template_id = "i3HfPnkSPS2sKmZ3p2iNwgkkQ2uMwq04FDKpMv5JXx4"
 # 接收公众号消息的微信号
 # 这是我的
-users = "ofbRU6MWFTdevQUu6W70chl_MMTA,ofbRU6JZ5_-goJlMsQ3yBF881ypI"
+users = "ofbRU6JZ5_-goJlMsQ3yBF881ypI"
 
 
 # 信息配置
