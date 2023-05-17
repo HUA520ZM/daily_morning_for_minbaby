@@ -4,7 +4,7 @@ app_id = "wx107c8e135c2c4ff4"
 # 公众号appSecret
 app_secret = "2942ef3baf3d7e57aa7649545cd6bae3"
 # 模板消息id
-template_id = "yuzsYv4Ns0rkqCr1h3dpXBj2_3Frwdcoc-vA_xlsN5E"
+template_id = "TTUQwU2kK1Pv3q7owLC0YieQda0u-cpsaUgxernbnrQ"
 # 接收公众号消息的微信号
 # 这是我的
 users = "ofbRU6JZ5_-goJlMsQ3yBF881ypI"
