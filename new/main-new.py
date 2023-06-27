@@ -21,10 +21,10 @@ def get_access_token():
 
 
 def get_weather(province, city):
-    # 城市id
+    #城市id
     city_id = cityinfo.cityInfo[province][city]["AREAID"]
     # city_id = 101280101
-    # 毫秒级时间戳
+    #毫秒级时间戳
     t = (int(round(time() * 1000)))
     headers = {
         "Referer": "http://www.weather.com.cn/weather1d/{}.shtml".format(city_id),
