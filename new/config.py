@@ -8,7 +8,7 @@ template_id = "i3HfPnkSPS2sKmZ3p2iNwgkkQ2uMwq04FDKpMv5JXx4"
 # 接收公众号消息的微信号
 # 这是我的
 users = "ofbRU6MWFTdevQUu6W70chl_MMTA,ofbRU6JZ5_-goJlMsQ3yBF881ypI"
-
+   
 
 # 信息配置
 # 所在省份
