@@ -14,7 +14,7 @@ users = "ofbRU6MWFTdevQUu6W70chl_MMTA,ofbRU6JZ5_-goJlMsQ3yBF881ypI"
 # 所在省份
 province = "湖北"
 # 所在城市
-city = "咸宁市"
+city = "东莞市"
 # 生日，如果月份或者日期小于10，直接用对应的数字即可，例如1997-1-1
 birthday = "1999-5-8"
 birthday2 = "1999-11-11"
